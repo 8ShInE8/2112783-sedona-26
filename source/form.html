@@ -91,23 +91,23 @@
         <div class="comment__impression">
           <h3 class="comment__title">Ваше Общее впечатление:</h3>
           <ul class="comment__impression-list">
-            <li class="comment__impression-item--checked">
+            <li class="comment__impression-item">
               <label class="comment-control">
                 <input class="visually-hidden comment__positive-radio" type="radio" name="positive" checked="">
                 <span class="comment__positive">Скорее положительное</span>
               </label>
             </li>
 
-            <li class="comment__impression-item--">
-              <label class="comment-control">
-                <input class="visually-hidden comment__negative-radio" type="radio" name="negative">
+            <li class="comment__impression-item">
+              <label class="comment__comment-control">
+                <input class="visually-hidden comment__negative-radio" type="radio" name="positive">
                 <span class="comment__negative">Скорее отрицательное</span>
               </label>
             </li>
 
             <li class="comment__impression-item">
-              <label class="comment-control">
-                <input class="visually-hidden comment__neutral-radio" type="radio" name="neutral">
+              <label class="comment__comment-control">
+                <input class="visually-hidden comment__neutral-radio" type="radio" name="positive">
                 <span class="comment__neutral">Затрудняюсь ответить</span>
               </label>
             </li>
@@ -117,29 +117,29 @@
         <div class="comment__visited">
           <h3 class="comment__title">Посещенные достопримечательности:</h3>
           <ul class="comment__visited-list">
-            <li class="comment__visited-item--checked">
-              <label class="comment-control">
+            <li class="comment__visited-item">
+              <label class="comment__comment-control">
                 <input class="visually-hidden comment__control-checkbox" type="checkbox" name="bridge" checked="">
                 <span class="comment__bridge">Мост Дьявола</span>
               </label>
             </li>
 
-            <li class="comment__visited-item--checked">
-              <label class="comment-control">
+            <li class="comment__visited-item">
+              <label class="comment__comment-control">
                 <input class="visually-hidden comment__control-checkbox" type="checkbox" name="mount-bell" checked="">
                 <span class="comment__mount-bell">Гора-Колокол</span>
               </label>
             </li>
 
-            <li class="comment__visited-item--checked">
-              <label class="comment-control">
+            <li class="comment__visited-item">
+              <label class="comment__comment-control">
                 <input class="visually-hidden comment__control-checkbox" type="checkbox" name="slide-park" checked="">
                 <span class="comment__slide-park">Слайд-парк</span>
               </label>
             </li>
 
             <li class="comment__visited-item">
-              <label class="comment-control">
+              <label class="comment__comment-control">
                 <input class="visually-hidden comment__control-checkbox" type="checkbox" name="red-rocks">
                 <span class="comment__red-rocks">Красные скалы</span>
               </label>
@@ -149,10 +149,10 @@
 
         <div class="comment__emotions">
           <h3 class="comment__title">Опишите свои эмоции:</h3>
-          <p class="comment__review">
+          <label class="comment__review">
             <input class="comment__form-review" type="text" id="form-review" name="review"
               placeholder="Опишите подробно все свои восторги">
-          </p>
+          </label>
         </div>
 
         <button class="comment__button" type="submit">Отправить отзыв</button>
